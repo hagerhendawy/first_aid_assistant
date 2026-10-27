@@ -1,0 +1,1365 @@
+{
+  "symptoms": {
+    "burn": {
+      "label": "Burn or scald",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "burn",
+        "burnt",
+        "burned",
+        "scald",
+        "scalded",
+        "boiling water",
+        "hot oil"
+      ]
+    },
+    "cut": {
+      "label": "Cut or wound",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "cut",
+        "wound",
+        "laceration",
+        "scrape",
+        "graze",
+        "gash",
+        "stabbed",
+        "bleeding wound"
+      ]
+    },
+    "choking": {
+      "label": "Choking",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "choking",
+        "choke",
+        "choked",
+        "food stuck",
+        "stuck in throat",
+        "swallowed wrong"
+      ]
+    },
+    "fainting": {
+      "label": "Fainting / collapse",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "faint",
+        "fainted",
+        "passed out",
+        "blacked out",
+        "collapsed"
+      ]
+    },
+    "nosebleed": {
+      "label": "Nosebleed",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "nosebleed",
+        "nose bleed",
+        "nose is bleeding",
+        "nose bleeding",
+        "bloody nose"
+      ]
+    },
+    "allergy": {
+      "label": "Allergic reaction / sting",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "allergic",
+        "allergy",
+        "bee sting",
+        "wasp sting",
+        "stung",
+        "hives",
+        "anaphylaxis",
+        "peanut"
+      ]
+    },
+    "fracture": {
+      "label": "Broken bone / sprain",
+      "type": "situation",
+      "for": [],
+      "keywords": [
+        "fracture",
+        "fractured",
+        "broken bone",
+        "broke my",
+        "broken arm",
+        "broken leg",
+        "broken wrist",
+        "sprain",
+        "sprained",
+        "twisted ankle",
+        "dislocated"
+      ]
+    },
+    "infant": {
+      "label": "Patient is a baby (under 1 year)",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "baby",
+        "infant",
+        "newborn",
+        "months old"
+      ]
+    },
+    "young_child": {
+      "label": "Patient is a young child",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "child",
+        "kid",
+        "toddler",
+        "my son",
+        "my daughter"
+      ]
+    },
+    "pregnant": {
+      "label": "Patient is pregnant",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "pregnant",
+        "pregnancy"
+      ]
+    },
+    "unconscious": {
+      "label": "Unconscious / not responding",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "unconscious",
+        "unresponsive",
+        "not responding",
+        "won't wake",
+        "wont wake",
+        "not waking"
+      ]
+    },
+    "not_breathing": {
+      "label": "Not breathing",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "not breathing",
+        "stopped breathing",
+        "no breathing",
+        "isn't breathing",
+        "isnt breathing"
+      ]
+    },
+    "difficulty_breathing": {
+      "label": "Difficulty breathing / wheezing",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "difficulty breathing",
+        "trouble breathing",
+        "hard to breathe",
+        "short of breath",
+        "shortness of breath",
+        "wheezing"
+      ]
+    },
+    "chest_pain": {
+      "label": "Chest pain / tightness",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "chest pain",
+        "chest tightness",
+        "pain in my chest",
+        "pain in his chest",
+        "pain in her chest"
+      ]
+    },
+    "seizure": {
+      "label": "Seizure / convulsions",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "seizure",
+        "convulsion",
+        "convulsing",
+        "shaking uncontrollably"
+      ]
+    },
+    "heavy_bleeding": {
+      "label": "Heavy / spurting bleeding",
+      "type": "symptom",
+      "for": [],
+      "keywords": [
+        "heavy bleeding",
+        "bleeding heavily",
+        "spurting",
+        "blood is pouring",
+        "lots of blood",
+        "a lot of blood",
+        "soaking through",
+        "bleeding a lot",
+        "severe bleeding"
+      ]
+    },
+    "large_blisters": {
+      "label": "Large blisters",
+      "type": "symptom",
+      "for": [
+        "burn"
+      ],
+      "keywords": [
+        "large blister",
+        "big blister",
+        "many blister",
+        "huge blister"
+      ]
+    },
+    "burn_large_area": {
+      "label": "Burn larger than the person's hand",
+      "type": "symptom",
+      "for": [
+        "burn"
+      ],
+      "keywords": [
+        "larger than my hand",
+        "bigger than my hand",
+        "larger than his hand",
+        "larger than her hand",
+        "large area",
+        "big area",
+        "large burn",
+        "big burn"
+      ]
+    },
+    "burn_white_charred": {
+      "label": "White, waxy, leathery or charred skin",
+      "type": "symptom",
+      "for": [
+        "burn"
+      ],
+      "keywords": [
+        "white skin",
+        "charred",
+        "black skin",
+        "leathery",
+        "white patch",
+        "waxy"
+      ]
+    },
+    "burn_sensitive_area": {
+      "label": "Burn on face, hands, feet, joints or genitals",
+      "type": "symptom",
+      "for": [
+        "burn"
+      ],
+      "keywords": [
+        "on my face",
+        "on the face",
+        "face burn",
+        "burn on face",
+        "genital",
+        "groin",
+        "in my eye",
+        "on my hands",
+        "on the hands",
+        "on my feet",
+        "on the feet",
+        "on my neck"
+      ]
+    },
+    "chemical_or_electrical": {
+      "label": "Chemical or electrical burn",
+      "type": "symptom",
+      "for": [
+        "burn"
+      ],
+      "keywords": [
+        "chemical",
+        "acid",
+        "bleach",
+        "electric shock",
+        "electrical",
+        "electrocuted",
+        "lightning"
+      ]
+    },
+    "bleeding_not_stopping": {
+      "label": "Bleeding not stopping after 10 min of pressure",
+      "type": "symptom",
+      "for": [
+        "cut",
+        "nosebleed"
+      ],
+      "keywords": [
+        "not stopping",
+        "won't stop",
+        "wont stop",
+        "doesn't stop",
+        "doesnt stop",
+        "keeps bleeding",
+        "still bleeding"
+      ]
+    },
+    "deep_wound": {
+      "label": "Deep or gaping wound",
+      "type": "symptom",
+      "for": [
+        "cut"
+      ],
+      "keywords": [
+        "deep",
+        "gaping",
+        "wide open",
+        "bone visible",
+        "fat visible",
+        "edges won't close"
+      ]
+    },
+    "object_embedded": {
+      "label": "Object stuck in the wound",
+      "type": "symptom",
+      "for": [
+        "cut"
+      ],
+      "keywords": [
+        "embedded",
+        "stuck in the wound",
+        "glass in",
+        "object in",
+        "knife in",
+        "still in the wound"
+      ]
+    },
+    "animal_bite": {
+      "label": "Animal or human bite",
+      "type": "symptom",
+      "for": [
+        "cut"
+      ],
+      "keywords": [
+        "bite",
+        "bitten",
+        "dog bite",
+        "animal"
+      ]
+    },
+    "dirty_wound": {
+      "label": "Dirty / rusty wound",
+      "type": "symptom",
+      "for": [
+        "cut"
+      ],
+      "keywords": [
+        "dirty",
+        "rusty",
+        "rust",
+        "soil",
+        "dirt"
+      ]
+    },
+    "infection_signs": {
+      "label": "Signs of infection (pus, spreading redness)",
+      "type": "symptom",
+      "for": [
+        "cut"
+      ],
+      "keywords": [
+        "pus",
+        "red streak",
+        "spreading redness",
+        "fever"
+      ]
+    },
+    "can_cough": {
+      "label": "Can cough or speak",
+      "type": "symptom",
+      "for": [
+        "choking"
+      ],
+      "keywords": [
+        "can cough",
+        "coughing",
+        "able to cough",
+        "can speak",
+        "can talk",
+        "able to speak"
+      ]
+    },
+    "cannot_breathe_speak": {
+      "label": "Cannot breathe, speak or cough",
+      "type": "symptom",
+      "for": [
+        "choking"
+      ],
+      "keywords": [
+        "can't breathe",
+        "cannot breathe",
+        "cant breathe",
+        "can not breathe",
+        "can't speak",
+        "cannot speak",
+        "cant speak",
+        "can't cough",
+        "cannot cough",
+        "cant cough",
+        "silent cough",
+        "turning blue",
+        "blue lips",
+        "clutching throat",
+        "grabbing throat",
+        "unable to breathe",
+        "unable to speak",
+        "unable to cough"
+      ]
+    },
+    "recovered_quickly": {
+      "label": "Woke up within a minute",
+      "type": "symptom",
+      "for": [
+        "fainting"
+      ],
+      "keywords": [
+        "woke up",
+        "came to",
+        "recovered",
+        "regained consciousness",
+        "back to normal",
+        "awake now"
+      ]
+    },
+    "unconscious_over_minute": {
+      "label": "Unconscious for more than 1 minute",
+      "type": "symptom",
+      "for": [
+        "fainting"
+      ],
+      "keywords": [
+        "more than a minute",
+        "longer than a minute",
+        "over a minute",
+        "several minutes",
+        "still unconscious"
+      ]
+    },
+    "head_injury": {
+      "label": "Hit the head when falling",
+      "type": "symptom",
+      "for": [
+        "fainting",
+        "nosebleed"
+      ],
+      "keywords": [
+        "hit his head",
+        "hit her head",
+        "hit my head",
+        "hit head",
+        "head injury",
+        "banged head",
+        "head trauma"
+      ]
+    },
+    "diabetic": {
+      "label": "Has diabetes / low blood sugar",
+      "type": "symptom",
+      "for": [
+        "fainting"
+      ],
+      "keywords": [
+        "diabetic",
+        "diabetes",
+        "low blood sugar"
+      ]
+    },
+    "repeated_fainting": {
+      "label": "Has fainted repeatedly",
+      "type": "symptom",
+      "for": [
+        "fainting"
+      ],
+      "keywords": [
+        "again",
+        "second time",
+        "several times",
+        "keeps fainting",
+        "recurrent",
+        "multiple times",
+        "happens often"
+      ]
+    },
+    "nosebleed_prolonged": {
+      "label": "Bleeding for more than 20 minutes",
+      "type": "symptom",
+      "for": [
+        "nosebleed"
+      ],
+      "keywords": [
+        "20 minutes",
+        "30 minutes",
+        "half an hour",
+        "an hour",
+        "more than 15 minutes"
+      ]
+    },
+    "nose_injury": {
+      "label": "Nose bleed after a blow / broken nose",
+      "type": "symptom",
+      "for": [
+        "nosebleed"
+      ],
+      "keywords": [
+        "after a fall",
+        "after being hit",
+        "after a punch",
+        "broken nose",
+        "hit in the nose",
+        "hit in the face"
+      ]
+    },
+    "blood_thinners": {
+      "label": "Takes blood thinners",
+      "type": "symptom",
+      "for": [
+        "nosebleed",
+        "cut"
+      ],
+      "keywords": [
+        "blood thinner",
+        "warfarin",
+        "anticoagulant",
+        "aspirin daily"
+      ]
+    },
+    "throat_face_swelling": {
+      "label": "Swollen lips, tongue, face or throat",
+      "type": "symptom",
+      "for": [
+        "allergy"
+      ],
+      "keywords": [
+        "swollen lip",
+        "swollen tongue",
+        "swollen face",
+        "swollen throat",
+        "throat swelling",
+        "throat closing",
+        "tongue swelling",
+        "face swelling",
+        "lip swelling",
+        "throat tight"
+      ]
+    },
+    "visible_deformity": {
+      "label": "Limb looks deformed / bent",
+      "type": "symptom",
+      "for": [
+        "fracture"
+      ],
+      "keywords": [
+        "deformed",
+        "deformity",
+        "bent",
+        "crooked",
+        "out of shape",
+        "looks wrong"
+      ]
+    },
+    "open_fracture": {
+      "label": "Bone visible or sticking out",
+      "type": "symptom",
+      "for": [
+        "fracture"
+      ],
+      "keywords": [
+        "bone sticking",
+        "bone through",
+        "open fracture",
+        "bone visible",
+        "protruding"
+      ]
+    },
+    "cannot_bear_weight": {
+      "label": "Cannot move it or put weight on it",
+      "type": "symptom",
+      "for": [
+        "fracture"
+      ],
+      "keywords": [
+        "can't walk",
+        "cannot walk",
+        "can't put weight",
+        "cannot put weight",
+        "can't move",
+        "cannot move",
+        "unable to walk",
+        "unable to move"
+      ]
+    },
+    "numbness": {
+      "label": "Numbness, tingling or pale/cold fingers or toes",
+      "type": "symptom",
+      "for": [
+        "fracture"
+      ],
+      "keywords": [
+        "numb",
+        "tingling",
+        "pale",
+        "cold fingers",
+        "cold toes",
+        "pins and needles"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "D1",
+      "if": [
+        "infant"
+      ],
+      "level": null,
+      "why": "A baby is also a young child.",
+      "actions": [],
+      "derive": [
+        "young_child"
+      ],
+      "overrides": []
+    },
+    {
+      "id": "D2",
+      "if": [
+        "unconscious_over_minute"
+      ],
+      "level": null,
+      "why": "Unconscious for over a minute means the person is unresponsive.",
+      "actions": [],
+      "derive": [
+        "unconscious"
+      ],
+      "overrides": []
+    },
+    {
+      "id": "G1",
+      "if": [
+        "not_breathing"
+      ],
+      "level": "emergency",
+      "why": "No breathing = possible cardiac arrest.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Place the person on a firm flat surface. Push hard and fast in the centre of the chest: 30 compressions (about 5-6 cm deep, 100-120 per minute).",
+        "Give 2 rescue breaths if trained, then repeat 30:2. If untrained, do continuous compressions.",
+        "Use an AED (defibrillator) if one is available and follow its voice prompts. Do not stop until help arrives."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "G2",
+      "if": [
+        "unconscious"
+      ],
+      "level": "emergency",
+      "why": "An unresponsive person needs urgent professional care.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Check for breathing for up to 10 seconds. If NOT breathing, start CPR (30 compressions : 2 breaths).",
+        "If breathing, place in the recovery position (on the side, head tilted back) and monitor continuously.",
+        "Give nothing to eat or drink."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "G3",
+      "if": [
+        "chest_pain"
+      ],
+      "level": "emergency",
+      "why": "Chest pain may be a heart attack.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Keep the person seated or half-sitting, calm and still; loosen tight clothing.",
+        "Follow the instructions of the emergency dispatcher. Be ready to start CPR if they collapse."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "G4",
+      "if": [
+        "difficulty_breathing"
+      ],
+      "level": "emergency",
+      "why": "Breathing difficulty can become life-threatening quickly.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Help the person sit upright and stay calm; loosen tight clothing and open a window for fresh air.",
+        "If they have a prescribed inhaler, help them use it."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "G5",
+      "if": [
+        "seizure"
+      ],
+      "level": "emergency",
+      "why": "A seizure needs medical assessment.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Do not restrain the person and do not put anything in their mouth. Move hard objects away and cushion the head.",
+        "Note the time. When shaking stops, place on their side (recovery position) and stay with them."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "G6",
+      "if": [
+        "heavy_bleeding"
+      ],
+      "level": "emergency",
+      "why": "Heavy bleeding can cause shock.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Press firmly and directly on the wound with a clean cloth or your hand; do not release.",
+        "If blood soaks through, add more cloth on top - do not remove the first layer.",
+        "Lay the person down and raise the injured limb if possible; keep them warm."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B1",
+      "if": [
+        "burn"
+      ],
+      "level": "self_care",
+      "why": "A minor burn can be treated with cooling and a clean dressing.",
+      "actions": [
+        "Move away from the heat source. Remove rings, watches and tight clothing near the burn unless stuck to the skin.",
+        "Cool the burn under cool (not ice-cold) running water for 20 minutes (minimum 10).",
+        "Cover loosely with clean cling film or a non-fluffy sterile dressing.",
+        "Do NOT use ice, butter, toothpaste or creams. Do NOT burst blisters.",
+        "Use simple over-the-counter pain relief according to the label if needed."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B2",
+      "if": [
+        "burn",
+        "large_blisters"
+      ],
+      "level": "emergency",
+      "why": "Large blisters suggest a deeper (second-degree) burn.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Keep cooling the burn while waiting; do not burst the blisters."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B3",
+      "if": [
+        "burn",
+        "burn_large_area"
+      ],
+      "level": "emergency",
+      "why": "A burn larger than the person's hand is serious.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Keep cooling the burn while waiting and keep the person warm elsewhere on the body."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B4",
+      "if": [
+        "burn",
+        "burn_white_charred"
+      ],
+      "level": "emergency",
+      "why": "White, waxy or charred skin indicates a full-thickness burn.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Do not remove clothing stuck to the burn."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B5",
+      "if": [
+        "burn",
+        "burn_sensitive_area"
+      ],
+      "level": "emergency",
+      "why": "Burns on face, hands, feet, joints or genitals can cause lasting damage.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Cool with running water and keep the person calm; for face burns keep them sitting upright."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B6",
+      "if": [
+        "burn",
+        "chemical_or_electrical"
+      ],
+      "level": "emergency",
+      "why": "Chemical and electrical burns can be deeper than they look.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Electrical: do not touch the person until the power is switched off.",
+        "Chemical: remove contaminated clothing and rinse with plenty of running water for at least 20 minutes."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "B7",
+      "if": [
+        "burn",
+        "young_child"
+      ],
+      "level": "clinic",
+      "why": "Burns in babies and children should always be checked.",
+      "actions": [
+        "Have a doctor check any burn on a baby or young child, even if it looks small."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C1",
+      "if": [
+        "cut"
+      ],
+      "level": "self_care",
+      "why": "A minor cut can be managed at home.",
+      "actions": [
+        "Wash your hands (wear gloves if available).",
+        "Apply firm, direct pressure with a clean cloth or gauze for 10 minutes; raise the injured limb above heart level.",
+        "Once bleeding stops, rinse gently with clean running water and pat dry. Apply a sterile dressing.",
+        "Check that the tetanus vaccination is up to date (booster if >5-10 years for dirty wounds)."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C3",
+      "if": [
+        "cut",
+        "bleeding_not_stopping"
+      ],
+      "level": "emergency",
+      "why": "Bleeding that will not stop after 10 minutes of pressure needs urgent care.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Keep applying firm pressure; add more cloth on top rather than removing it."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C4",
+      "if": [
+        "cut",
+        "deep_wound"
+      ],
+      "level": "clinic",
+      "why": "Deep or gaping wounds may need stitches.",
+      "actions": [
+        "Cover with a clean dressing and go to the clinic or hospital within a few hours for possible stitches."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C5",
+      "if": [
+        "cut",
+        "object_embedded"
+      ],
+      "level": "emergency",
+      "why": "A stuck object may be plugging a major wound.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Do NOT pull the object out. Pad around it and bandage to hold it still."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C6",
+      "if": [
+        "cut",
+        "animal_bite"
+      ],
+      "level": "clinic",
+      "why": "Bites carry a high infection and rabies/tetanus risk.",
+      "actions": [
+        "Wash the bite thoroughly with soap and running water for several minutes and seek medical care the same day."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C7",
+      "if": [
+        "cut",
+        "dirty_wound"
+      ],
+      "level": "clinic",
+      "why": "Dirty wounds risk infection and tetanus.",
+      "actions": [
+        "Clean thoroughly and see a doctor about tetanus protection."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C8",
+      "if": [
+        "cut",
+        "infection_signs"
+      ],
+      "level": "clinic",
+      "why": "Pus, spreading redness or fever suggest infection.",
+      "actions": [
+        "See a doctor - antibiotics may be needed."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "C9",
+      "if": [
+        "cut",
+        "blood_thinners"
+      ],
+      "level": "clinic",
+      "why": "Blood-thinning medicines make bleeding harder to stop.",
+      "actions": [
+        "Contact a doctor even for minor cuts and keep pressure for at least 15 minutes."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "K1",
+      "if": [
+        "choking",
+        "can_cough"
+      ],
+      "level": "self_care",
+      "why": "A person who can cough is moving air - coughing is the best way to clear it.",
+      "actions": [
+        "Encourage them to keep coughing. Do not slap their back while they cough effectively and do not put fingers in their mouth.",
+        "Stay with them. If coughing becomes weak or silent, or they cannot breathe, treat it as severe choking."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "K2",
+      "if": [
+        "choking",
+        "cannot_breathe_speak"
+      ],
+      "level": "emergency",
+      "why": "A blocked airway is life-threatening.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Lean the person forward and give up to 5 sharp back blows between the shoulder blades with the heel of your hand.",
+        "If still blocked, give up to 5 abdominal thrusts: stand behind, fist above the navel, pull sharply inward and upward.",
+        "Alternate 5 back blows and 5 abdominal thrusts until the object comes out or the person becomes unconscious.",
+        "Even if the object comes out, the person should be checked by a doctor (thrusts can cause internal injury)."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "K3",
+      "if": [
+        "choking",
+        "unconscious"
+      ],
+      "level": "emergency",
+      "why": "A choking person who loses consciousness needs CPR.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Lower the person to the floor and start CPR (30 compressions : 2 breaths). Look in the mouth before each breath and remove any visible object."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "K4",
+      "if": [
+        "choking",
+        "cannot_breathe_speak",
+        "infant"
+      ],
+      "level": "emergency",
+      "why": "Infants need a different technique (replaces the adult steps of K2).",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "BABY under 1 year: sit down and lay the baby face-down along your forearm, head lower than the body, supporting the jaw.",
+        "Give up to 5 back blows between the shoulder blades. Turn the baby over and give 5 chest thrusts with two fingers on the centre of the chest.",
+        "Do NOT give abdominal thrusts to a baby. Repeat; start infant CPR if the baby becomes unresponsive.",
+        "Even if the object comes out, have the baby checked by a doctor."
+      ],
+      "derive": [],
+      "overrides": [
+        "K2"
+      ]
+    },
+    {
+      "id": "K5",
+      "if": [
+        "choking",
+        "cannot_breathe_speak",
+        "pregnant"
+      ],
+      "level": "emergency",
+      "why": "In pregnancy, thrusts are given on the chest (replaces the adult steps of K2).",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Lean the person forward and give up to 5 sharp back blows between the shoulder blades.",
+        "If still blocked, give up to 5 CHEST thrusts (not abdominal): hands on the lower half of the breastbone, pull sharply inward.",
+        "Alternate until the object comes out or the person becomes unconscious (then start CPR). Get a doctor to check them afterwards."
+      ],
+      "derive": [],
+      "overrides": [
+        "K2"
+      ]
+    },
+    {
+      "id": "F1",
+      "if": [
+        "fainting"
+      ],
+      "level": "self_care",
+      "why": "Most faints are brief and caused by a temporary drop in blood flow to the brain.",
+      "actions": [
+        "Lay the person flat on their back and raise their legs about 30 cm. Loosen tight clothing and give fresh air.",
+        "Check breathing. Do not give food or drink until fully alert.",
+        "Let them stay lying for about 10 minutes, then sit up slowly before standing.",
+        "If it was the first time or had no clear cause (heat, standing up quickly, dehydration), see a doctor."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F2",
+      "if": [
+        "fainting",
+        "unconscious_over_minute"
+      ],
+      "level": "emergency",
+      "why": "Not waking within a minute is not a simple faint.",
+      "actions": [
+        "If breathing, place in the recovery position; if not breathing, start CPR."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F3",
+      "if": [
+        "fainting",
+        "chest_pain"
+      ],
+      "level": "emergency",
+      "why": "Fainting with chest pain may be a heart problem.",
+      "actions": [
+        "Do not let the person stand or walk."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F4",
+      "if": [
+        "fainting",
+        "head_injury"
+      ],
+      "level": "emergency",
+      "why": "A head injury with a faint may mean concussion or bleeding in the skull.",
+      "actions": [
+        "Keep the head and neck still; watch for vomiting, confusion or drowsiness."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F5",
+      "if": [
+        "fainting",
+        "seizure"
+      ],
+      "level": "emergency",
+      "why": "Fainting with convulsions needs urgent assessment.",
+      "actions": [],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F6",
+      "if": [
+        "fainting",
+        "pregnant"
+      ],
+      "level": "clinic",
+      "why": "Fainting during pregnancy should be checked.",
+      "actions": [
+        "Lie on the left side and contact a doctor or midwife."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F7",
+      "if": [
+        "fainting",
+        "diabetic"
+      ],
+      "level": "clinic",
+      "why": "A diabetic person may have low blood sugar.",
+      "actions": [
+        "Once fully awake and able to swallow, give a sugary drink or glucose tablets. Seek medical advice."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F8",
+      "if": [
+        "fainting",
+        "repeated_fainting"
+      ],
+      "level": "clinic",
+      "why": "Repeated fainting needs a medical work-up.",
+      "actions": [
+        "See a doctor soon to look for the cause."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F9",
+      "if": [
+        "fainting",
+        "difficulty_breathing"
+      ],
+      "level": "emergency",
+      "why": "Fainting with breathing difficulty is a warning sign.",
+      "actions": [],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "F10",
+      "if": [
+        "fainting",
+        "recovered_quickly"
+      ],
+      "level": "self_care",
+      "why": "A quick recovery is reassuring.",
+      "actions": [
+        "Keep the person hydrated and watch them for the next 24 hours."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "N1",
+      "if": [
+        "nosebleed"
+      ],
+      "level": "self_care",
+      "why": "Most nosebleeds come from small vessels at the front of the nose.",
+      "actions": [
+        "Sit upright and lean forward (do NOT tilt the head back).",
+        "Pinch the soft part of the nose firmly for 10-15 minutes without letting go; breathe through the mouth.",
+        "Apply a cold pack to the bridge of the nose. Do not blow the nose for several hours."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "N2",
+      "if": [
+        "nosebleed",
+        "nosebleed_prolonged"
+      ],
+      "level": "emergency",
+      "why": "A nosebleed beyond 20 minutes needs medical control.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "N3",
+      "if": [
+        "nosebleed",
+        "nose_injury"
+      ],
+      "level": "clinic",
+      "why": "A nosebleed after a blow may mean a broken nose or head injury.",
+      "actions": [
+        "Get examined at a clinic or hospital."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "N4",
+      "if": [
+        "nosebleed",
+        "blood_thinners"
+      ],
+      "level": "clinic",
+      "why": "Blood thinners make bleeding harder to stop.",
+      "actions": [
+        "Contact a doctor, especially if it does not stop in 10 minutes."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "A1",
+      "if": [
+        "allergy"
+      ],
+      "level": "self_care",
+      "why": "Mild reactions (rash, itching, local swelling) are usually not dangerous.",
+      "actions": [
+        "Move away from the trigger. For a sting: scrape out the stinger sideways (do not squeeze it).",
+        "Wash the area, apply a cold pack, and take an antihistamine according to the label.",
+        "Watch closely for the next hour - if breathing or swelling changes, treat as severe."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "A2",
+      "if": [
+        "allergy",
+        "throat_face_swelling"
+      ],
+      "level": "emergency",
+      "why": "Swelling of the face or throat suggests anaphylaxis.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Use an adrenaline (epinephrine) auto-injector immediately if available - into the outer thigh; a second dose after 5 minutes if no improvement.",
+        "Lay the person flat with legs raised (sit them up if breathing is hard). Do not let them stand or walk."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "A3",
+      "if": [
+        "allergy",
+        "difficulty_breathing"
+      ],
+      "level": "emergency",
+      "why": "Allergy plus breathing trouble suggests anaphylaxis.",
+      "actions": [
+        "Use an adrenaline auto-injector immediately if available - into the outer thigh."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "X1",
+      "if": [
+        "fracture"
+      ],
+      "level": "clinic",
+      "why": "A fracture cannot be ruled out without an X-ray.",
+      "actions": [
+        "Keep the injured limb still; support it in the position found with padding or a sling. Do not try to straighten it.",
+        "Apply a cold pack wrapped in cloth for 20 minutes. Give nothing to eat or drink in case surgery is needed.",
+        "Go to the clinic or hospital for an X-ray."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "X2",
+      "if": [
+        "fracture",
+        "open_fracture"
+      ],
+      "level": "emergency",
+      "why": "An open fracture risks severe bleeding and infection.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call.",
+        "Cover the wound with a clean dressing; do not push the bone back or press on the bone ends."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "X3",
+      "if": [
+        "fracture",
+        "visible_deformity"
+      ],
+      "level": "emergency",
+      "why": "A deformed limb suggests a displaced fracture or dislocation.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "X4",
+      "if": [
+        "fracture",
+        "numbness"
+      ],
+      "level": "emergency",
+      "why": "Numbness or a cold, pale limb suggests nerve or blood-vessel injury.",
+      "actions": [
+        "Call emergency services now (Egypt ambulance 123, international 112) or ask someone nearby to call."
+      ],
+      "derive": [],
+      "overrides": []
+    },
+    {
+      "id": "X5",
+      "if": [
+        "fracture",
+        "cannot_bear_weight"
+      ],
+      "level": "clinic",
+      "why": "Being unable to use the limb suggests a fracture.",
+      "actions": [
+        "Do not walk on it - get an X-ray as soon as possible."
+      ],
+      "derive": [],
+      "overrides": []
+    }
+  ]
+}

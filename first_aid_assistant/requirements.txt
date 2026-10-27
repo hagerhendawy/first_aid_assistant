@@ -1,0 +1,4 @@
+streamlit>=1.40
+pandas
+pyttsx3>=2.90   # optional (CLI voice)
+gTTS>=2.3       # optional (web "Server MP3" voice)

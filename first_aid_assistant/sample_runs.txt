@@ -1,0 +1,177 @@
+Index: 8 guides, 460 distinct terms | KB: 42 facts, 50 rules
+
+
+##############################################################################
+# RUN 1 - IR search: 'how to stop bleeding from a deep cut'
+##############################################################################
+  0.254  Cuts, Wounds and Bleeding
+         Most small cuts and scrapes can be treated at home. The main aims are to stop the bleeding, keep the wound clean and prevent infection.
+  0.091  Unresponsive Person and CPR
+         Push hard and fast, about 5 to 6 centimetres deep at a rate of 100 to 120 compressions per minute.
+
+##############################################################################
+# RUN 2 - Typed question: 'My friend has a burn with large blisters, what should I do?'
+##############################################################################
+==============================================================================
+[!] FOR AWARENESS ONLY - this is NOT a substitute for professional medical care.
+    In any serious case CONTACT EMERGENCY SERVICES IMMEDIATELY (Egypt ambulance: 123 | International: 112).
+==============================================================================
+Understood facts : Burn or scald, Large blisters
+
+DOES THIS CASE NEED A HOSPITAL?
+  YES - this may need EMERGENCY / hospital care. Call emergency services now.
+
+WHAT SHOULD I DO?
+  1. Call emergency services now (Egypt ambulance 123, international 112) or
+     ask someone nearby to call.
+  2. Keep cooling the burn while waiting; do not burst the blisters.
+  3. Move away from the heat source. Remove rings, watches and tight clothing
+     near the burn unless stuck to the skin.
+  4. Cool the burn under cool (not ice-cold) running water for 20 minutes
+     (minimum 10).
+  5. Cover loosely with clean cling film or a non-fluffy sterile dressing.
+  6. Do NOT use ice, butter, toothpaste or creams. Do NOT burst blisters.
+  7. Use simple over-the-counter pain relief according to the label if needed.
+
+WHY (rules fired):
+  [B1] IF burn THEN SELF_CARE - A minor burn can be treated with cooling and a
+     clean dressing.
+  [B2] IF burn AND large_blisters THEN EMERGENCY - Large blisters suggest a
+     deeper (second-degree) burn.
+
+RELATED GUIDES (TF-IDF / cosine ranking):
+  - Burns and Scalds  (score 0.244)
+      Large blisters, a burn bigger than the person's hand, or white, waxy or
+      charred skin indicate a deep burn and need emergency care.
+  - Choking (Adults, Children and Babies)  (score 0.075)
+      Choking happens when an object blocks the airway. A person who can
+      cough, speak or breathe has a mild blockage. A person who cannot
+      breathe, speak ...
+
+CONTACTS:
+  Ambulance (Egypt): 123
+  Police (Egypt): 122
+  Fire Department (Egypt): 180
+  International emergency number: 112
+  Campus Security: REPLACE-ME
+  Campus Clinic Hotline: REPLACE-ME
+  Campus Medical Clinic: Main Building - Ground Floor (EDIT ME) | Tel REPLACE-ME | Sun-Thu 08:00-16:00 (EDIT ME)
+==============================================================================
+
+##############################################################################
+# RUN 3 - Symptom selection: choking + cannot breathe/speak + baby
+##############################################################################
+==============================================================================
+[!] FOR AWARENESS ONLY - this is NOT a substitute for professional medical care.
+    In any serious case CONTACT EMERGENCY SERVICES IMMEDIATELY (Egypt ambulance: 123 | International: 112).
+==============================================================================
+Understood facts : Cannot breathe, speak or cough, Choking, Patient is a baby (under 1 year), Patient is a young child
+
+DOES THIS CASE NEED A HOSPITAL?
+  YES - this may need EMERGENCY / hospital care. Call emergency services now.
+
+WHAT SHOULD I DO?
+  1. Call emergency services now (Egypt ambulance 123, international 112) or
+     ask someone nearby to call.
+  2. BABY under 1 year: sit down and lay the baby face-down along your
+     forearm, head lower than the body, supporting the jaw.
+  3. Give up to 5 back blows between the shoulder blades. Turn the baby over
+     and give 5 chest thrusts with two fingers on the centre of the chest.
+  4. Do NOT give abdominal thrusts to a baby. Repeat; start infant CPR if the
+     baby becomes unresponsive.
+  5. Even if the object comes out, have the baby checked by a doctor.
+
+WHY (rules fired):
+  [D1] IF infant THEN derive young_child - A baby is also a young child.
+  [K2] IF choking AND cannot_breathe_speak THEN EMERGENCY - A blocked airway
+     is life-threatening.
+  [K4] IF choking AND cannot_breathe_speak AND infant THEN EMERGENCY - Infants
+     need a different technique (replaces the adult steps of K2).
+
+RELATED GUIDES (TF-IDF / cosine ranking):
+  - Choking (Adults, Children and Babies)  (score 0.369)
+      Choking happens when an object blocks the airway. A person who can
+      cough, speak or breathe has a mild blockage. A person who cannot
+      breathe, speak ...
+
+CONTACTS:
+  Ambulance (Egypt): 123
+  Police (Egypt): 122
+  Fire Department (Egypt): 180
+  International emergency number: 112
+  Campus Security: REPLACE-ME
+  Campus Clinic Hotline: REPLACE-ME
+  Campus Medical Clinic: Main Building - Ground Floor (EDIT ME) | Tel REPLACE-ME | Sun-Thu 08:00-16:00 (EDIT ME)
+==============================================================================
+
+##############################################################################
+# RUN 4 - Typed question: 'She fainted but woke up after a few seconds, does she need a hospital?'
+##############################################################################
+==============================================================================
+[!] FOR AWARENESS ONLY - this is NOT a substitute for professional medical care.
+    In any serious case CONTACT EMERGENCY SERVICES IMMEDIATELY (Egypt ambulance: 123 | International: 112).
+==============================================================================
+Understood facts : Fainting / collapse, Woke up within a minute
+
+DOES THIS CASE NEED A HOSPITAL?
+  Probably manageable with first aid on the spot, but get medical help if it
+  gets worse.
+
+WHAT SHOULD I DO?
+  1. Lay the person flat on their back and raise their legs about 30 cm.
+     Loosen tight clothing and give fresh air.
+  2. Check breathing. Do not give food or drink until fully alert.
+  3. Let them stay lying for about 10 minutes, then sit up slowly before
+     standing.
+  4. If it was the first time or had no clear cause (heat, standing up
+     quickly, dehydration), see a doctor.
+  5. Keep the person hydrated and watch them for the next 24 hours.
+
+WHY (rules fired):
+  [F1] IF fainting THEN SELF_CARE - Most faints are brief and caused by a
+     temporary drop in blood flow to the brain.
+  [F10] IF fainting AND recovered_quickly THEN SELF_CARE - A quick recovery is
+     reassuring.
+
+RELATED GUIDES (TF-IDF / cosine ranking):
+  - Fainting (Syncope)  (score 0.159)
+      Fainting is a short loss of consciousness caused by a temporary
+      reduction of blood flow to the brain. Common triggers are standing up
+      quickly, heat...
+  - Broken Bones and Sprains  (score 0.081)
+      Do not give food or drink in case surgery is needed.
+==============================================================================
+
+##############################################################################
+# RUN 5 - Typed question: 'I got a small cut on my finger'
+##############################################################################
+==============================================================================
+[!] FOR AWARENESS ONLY - this is NOT a substitute for professional medical care.
+    In any serious case CONTACT EMERGENCY SERVICES IMMEDIATELY (Egypt ambulance: 123 | International: 112).
+==============================================================================
+Understood facts : Cut or wound
+
+DOES THIS CASE NEED A HOSPITAL?
+  Probably manageable with first aid on the spot, but get medical help if it
+  gets worse.
+
+WHAT SHOULD I DO?
+  1. Wash your hands (wear gloves if available).
+  2. Apply firm, direct pressure with a clean cloth or gauze for 10 minutes;
+     raise the injured limb above heart level.
+  3. Once bleeding stops, rinse gently with clean running water and pat dry.
+     Apply a sterile dressing.
+  4. Check that the tetanus vaccination is up to date (booster if >5-10 years
+     for dirty wounds).
+
+WHY (rules fired):
+  [C1] IF cut THEN SELF_CARE - A minor cut can be managed at home.
+
+RELATED GUIDES (TF-IDF / cosine ranking):
+  - Cuts, Wounds and Bleeding  (score 0.160)
+      Most small cuts and scrapes can be treated at home. The main aims are to
+      stop the bleeding, keep the wound clean and prevent infection.
+  - Nosebleed  (score 0.062)
+      Nosebleeds are common and are usually not serious. Most come from small
+      blood vessels at the front of the nose.
+==============================================================================

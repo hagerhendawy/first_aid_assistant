@@ -1,0 +1,7 @@
+name,type,phone,notes
+Ambulance (Egypt),national,123,National ambulance service
+Police (Egypt),national,122,National police emergency
+Fire Department (Egypt),national,180,Civil protection / fire
+International emergency number,national,112,Works on most mobile networks abroad
+Campus Security,campus,REPLACE-ME,Add your university security desk number
+Campus Clinic Hotline,campus,REPLACE-ME,Add your campus clinic number

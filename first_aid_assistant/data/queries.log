@@ -1,0 +1,18 @@
+2026-10-23 19:17:01 | SEARCH | how to stop bleeding from a deep cut | situation=- | level=- | top_guide=cuts_and_bleeding
+2026-10-23 19:17:01 | QUESTION | My friend has a burn with large blisters, what should I do? | situation=burn | level=emergency | top_guide=burns
+2026-10-23 19:17:01 | SYMPTOMS | cannot_breathe_speak, choking, infant | situation=choking | level=emergency | top_guide=choking
+2026-10-23 19:17:01 | QUESTION | She fainted but woke up after a few seconds, does she need a hospital? | situation=fainting | level=self_care | top_guide=fainting
+2026-10-23 19:17:01 | QUESTION | I got a small cut on my finger | situation=cut | level=self_care | top_guide=cuts_and_bleeding
+2026-10-27 13:47:10 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 13:47:10 | SYMPTOMS | burn | situation=burn | level=self_care | top_guide=burns
+2026-10-27 13:47:21 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 13:47:21 | SYMPTOMS | burn | situation=burn | level=self_care | top_guide=burns
+2026-10-27 13:47:30 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 13:47:30 | SYMPTOMS | burn | situation=burn | level=self_care | top_guide=burns
+2026-10-27 18:45:06 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 18:45:06 | SYMPTOMS | burn | situation=burn | level=self_care | top_guide=burns
+2026-10-27 18:46:07 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 18:46:26 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 18:46:58 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 18:47:12 | QUESTION | My friend has a burn with large blisters | situation=burn | level=emergency | top_guide=burns
+2026-10-27 18:47:12 | SYMPTOMS | burn | situation=burn | level=self_care | top_guide=burns
